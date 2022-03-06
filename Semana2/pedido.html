@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+    
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: rgba(228, 113, 189, 0.315);
+            }
+    
+        </style>
+    </head>
+    <body>
+
+        <h1> Prepara tu orden pastelera </h1>
+
+        <form action="orden.js">
+            <label for="Nombre">Ingresa tu nombre:</label><br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+            
+            <br><br>
+
+            <label for="Teléfono">Ingresa tu número telefónico:</label><br>
+            <input type="tel" id="Teléfono" name="Teléfono" maxlength="10" placeholder="Número de teléfono">
+
+            <br><br>
+
+            <label for="Email">Ingresa tu correo electrónico:</label><br>
+            <input type="email" id="Email" name="Email" placeholder="Correo electrónico">
+
+            <br><br>
+
+            <label for="Descripción">Escribe la descripción general de tu pastel:</label><br>
+            <input type="text" id="Descripción" name="Descripción" placeholder="Descripción general del pastel">
+
+            <br><br>
+
+            <h2>Selecciona uno o más sabores para tu pastel</h2>
+
+            <input type="checkbox" id="sabor1" name="sabor1" value="Chocolate amargo">
+            <label for="sabor1">Chocolate amargo</label><br>
+            
+            <input type="checkbox" id="sabor2" name="sabor2" value="Chocolate blanco">
+            <label for="sabor2">Chocolate blanco</label><br>
+
+            <input type="checkbox" id="sabor3" name="sabor3" value="Oreo">
+            <label for="sabor3">Oreo </label><br>
+
+            <input type="checkbox" id="sabor4" name="sabor4" value="Queso">
+            <label for="sabor4">De queso </label><br>
+
+            <input type="checkbox" id="sabor5" name="sabor5" value="Cajeta">
+            <label for="sabor5">Cajeta </label><br>
+
+            <input type="checkbox" id="sabor6" name="sabor6" value="Limón">
+            <label for="sabor6">De limón </label><br>
+
+            <input type="checkbox" id="sabor7" name="sabor7" value="Nuez">
+            <label for="sabor7">De nuez </label><br>
+
+            <h2>¿Qué decoraciones quieres agregar?</h2>
+            <input type="checkbox" id="Adorno1" name="Adorno1" value="Letrero">
+            <label for="dorno1">Letrero 3D</label><br>
+            
+            <input type="checkbox" id="Adorno2" name="Adorno2" value="Miniglobos">
+            <label for="Adorno2">Miniglobos</label><br>
+
+            
+            <input type="checkbox" id="Adorno3" name="Adorno3" value="Dibujo">
+            <label for="Adorno3">Dibujo a mano alzada </label><br>
+
+            <input type="checkbox" id="Adorno4" name="Adorno4" value="Flores fondant">
+            <label for="Adorno4">Flores de fondant </label><br>
+
+            <input type="checkbox" id="Adorno5" name="Adorno5" value="Unicornio">
+            <label for="Adorno5">Figuras de unicornio</label><br>
+
+            <br><br>
+
+            <input type="reset">
+            <input type="submit">
+
+        </form>
+
+    </body>
+</html>
