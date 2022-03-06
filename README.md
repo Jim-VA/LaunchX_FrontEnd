@@ -6,3 +6,6 @@ Intro a FrontEnd
 
 ## Semana 2
 HTML (maquetación de páginas)
+
+## Semana 3
+CSS
