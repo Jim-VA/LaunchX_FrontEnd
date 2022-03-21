@@ -1,0 +1,164 @@
+:root{
+    --mainFont:"Poppins",sans-serif;
+    --secondFont: "Montserrat",sans-serif; 
+}
+html{
+    font-size: 60%;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    color: rgb(75, 73, 73);
+    background-color: rgb(255, 255, 255);
+    line-height: 20px;
+    font-family: var(--mainFont);
+}
+
+h1,h2,h3{
+    font-family: var(--secondFont);
+    color: rgb(44, 44, 226);
+}
+img{
+    width: 100%;
+}
+
+.mainBar{
+    width: 100%;
+    position: fixed;
+    background-color: aliceblue;
+}
+.button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(138, 138, 223);
+}
+
+.pages{
+    display:flex ;
+    width: 80%;
+    justify-content: space-between;
+    position: fixed;
+    column-gap: 40px;
+    padding: 30px;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 3;
+}
+.barLeft{
+    color:rgb(41, 41, 223);
+    font-family: var(--secondFont);
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+
+.pagesLinks{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content:space-between;
+    column-gap: 50px;
+    margin: auro 0;
+}
+
+.link{
+    font-weight: 400;
+    color: rgb(44, 47, 47);
+    font-size: 25px;
+}
+.firstPart{
+    
+    max-width:700px;
+    width:700px;
+    height: 500px;
+    margin: 0 450;    
+    background-repeat: no-repeat;
+}
+
+.content1{
+    width: 1000px;
+    padding: 150px;
+    padding-top: 300px;
+}
+
+.partOneTitle{
+    font-size: 90px;
+    line-height: 80px;
+}
+.partOneText{
+    padding: 60px 0;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    line-height: 42px;
+}
+.plusCont1,.plusCont2{
+    display: flex;
+    max-width: 350px;;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 20px;
+    color:black;
+    word-spacing: 1px;
+}
+.footer{
+    background-color:rgb(206, 226, 251) ;
+    width: 100%;
+    margin-top: 500px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    
+}
+
+.footerArea{
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mission{
+    width: 300px;
+    height: 200px;
+}
+
+.footerTitleMission{
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+.footerRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fRU{
+    
+    display: flex;
+    justify-content: space-between;
+    column-gap: 130px;
+}
+
+.fRightTitle{
+    font-size: 25px;
+}
+
+.fRD{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 50px;
+
+}
